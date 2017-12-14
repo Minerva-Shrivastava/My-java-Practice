@@ -9,6 +9,7 @@ public class Main {
 			Bank b = new Bank(a);
 			ATM a1 = new ATM(a);
 			
+			//Threads starting
 			b.start();
 			a1.start();
 			
